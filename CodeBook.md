@@ -20,13 +20,13 @@ Description of the run_analytics.R process
 * Loading activity labels `activity_labels.txt`
 * Changes the data activity row to use the activity labels
 * Extracts the `mean`,`std` into dataset1
-* Saves dataset into `results/dataset.csv`
+* Saves dataset into `results/dataset.txt`
 * Uses plur to calculate mean on activity for each id
 * appends `_mean` to all data columns
-* saves tidydata into `results/tidydata.csv`
+* saves tidydata into `results/tidydata.txt`
 
-## dataset.csv
-contains 10299 rows and 81 columns in a default csv format.
+## dataset.txt
+contains 10299 rows and 81 columns in a tab-delimited txt format.
 
 ### Columns 
 * id
@@ -112,8 +112,8 @@ contains 10299 rows and 81 columns in a default csv format.
 * fBodyBodyGyroJerkMag.meanFreq..
 
 
-## tidydata.csv
-contains 180 rows and 81 columns in a default csv format.
+## tidydata.txt
+contains 180 rows and 81 columns in a tab-delimited txt format.
 
 ### Columns
 * id
