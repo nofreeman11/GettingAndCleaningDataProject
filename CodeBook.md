@@ -20,10 +20,10 @@ Description of the run_analytics.R process
 * Loading activity labels `activity_labels.txt`
 * Changes the data activity row to use the activity labels
 * Extracts the `mean`,`std` into dataset1
-* Saves dataset into `result/dataset.csv`
+* Saves dataset into `results/dataset.csv`
 * Uses plur to calculate mean on activity for each id
 * appends `_mean` to all data columns
-* saves tidydata into `result/tidydata.csv`
+* saves tidydata into `results/tidydata.csv`
 
 ## dataset.csv
 contains 10299 rows and 81 columns in a default csv format.
