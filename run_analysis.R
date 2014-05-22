@@ -65,8 +65,8 @@ saveResult <- function (data,name){
   
   print(paste("Saving data", name))
   
-  file <- paste(result_folder, "/", name,".csv" ,sep="")
-  write.csv(data,file)
+  file <- paste(result_folder, "/", name,".txt" ,sep="")
+  write.table(data,file, sep="\t")
 }
 
 
